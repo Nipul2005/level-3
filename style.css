@@ -1,5 +1,12 @@
-body[theme="black"]{
+
+body[theme="black"] .section{
     background-color: black;
+}
+
+
+
+body[theme="black"] .section{
+    color: white;
 }
 
 body[theme="cyan"]{
@@ -7,15 +14,28 @@ body[theme="cyan"]{
 }
 
 
+body[theme="cyan"] .section{
+    color: #1f2f32;
+}
+
 body[theme="salmon"]{
     background-color: salmon;
 }
 
+body[theme="salmon"]{
+    color: rgb(83, 37, 33);
+}
 
-body[theme="black"]{
+
+body[theme="black"] .section{
     background-color: black;
 }
 
 body[theme="white"]{
     background-color: white;
+}
+
+
+body[theme="white"] .section{
+    color: black;
 }
